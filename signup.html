@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Create Account - Student Expense Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <h1>Student Expense Tracker</h1>
+
+        <p>Start managing your expenses</p>
+
+    </header>
+
+
+    <main>
+
+        <div class="login-box">
+
+            <h2>Create Account</h2>
+
+
+            <form id="signupForm">
+
+                <label for="email">Email</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your Gmail"
+                    required
+                >
+
+
+                <label for="password">Password</label>
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Create a password"
+                    required
+                    minlength="6"
+                >
+
+
+                <label for="confirmPassword">
+                    Confirm Password
+                </label>
+
+                <input
+                    type="password"
+                    id="confirmPassword"
+                    placeholder="Confirm your password"
+                    required
+                >
+
+
+                <button type="submit">
+                    Create Account
+                </button>
+
+            </form>
+
+
+            <p class="signup-text">
+
+                Already have an account?
+
+                <a href="index.html">Login</a>
+
+            </p>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <p>© 2026 Student Expense Tracker</p>
+
+    </footer>
+
+
+    <script type="module" src="./sign.js"></script>
+    
+
+</body>
+
+</html>
